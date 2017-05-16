@@ -43,6 +43,10 @@
         <mt-cell title="Field" to="/home/Field" is-link><i slot="icon" class="fa fa-th-large"></i></mt-cell>
         <mt-cell title="Badge" to="/home/badge" is-link><i slot="icon" class="fa fa-square"></i></mt-cell>
       </div>
+      <!--<div class="page-title">Eslint Test</div>-->
+      <!--<div class="from-components">-->
+        <!--<mt-cell title="Eslint" to="/home/eslint" is-link><i slot="icon" class="fa fa-circle"></i></mt-cell>-->
+      <!--</div>-->
     </div>
 </template>
 <style lang="scss" ref="stylesheet/scss" scoped>

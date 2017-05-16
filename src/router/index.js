@@ -36,6 +36,7 @@ import checkListRoutes from './check-list/check-list.route';
 import radioRoutes from './radio/radio.route';
 import fieldRoutes from './field/field.route';
 import badgeRoutes from './badge/badge.route';
+import eslintRoutes from './eslint/eslint.route';
 
 Vue.use(Router);
 Vue.use(Mint);
@@ -79,6 +80,7 @@ childRoutes = childRoutes
   .concat(radioRoutes)
   .concat(fieldRoutes)
   .concat(badgeRoutes)
+  .concat(eslintRoutes)
   .concat(indicatorRoutes);
 
 const route = [
